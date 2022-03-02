@@ -361,6 +361,7 @@
            :zoom zoom
            :transform transform
            :selected selected
+           :selected-shapes selected-shapes
            :page-id page-id}])
 
        (when show-cursor-tooltip?
