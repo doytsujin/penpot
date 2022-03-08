@@ -39,6 +39,7 @@
           (pcb/remove-objects [shape-id])
           (pcb/resize-parents [shape-id]))
 
+      ;; TODO: SELRECT, POINTS
       :else
       (-> changes
           (pcb/update-shapes [shape-id]

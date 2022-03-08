@@ -186,6 +186,7 @@
                   [first-shape (-> (pcb/empty-changes it page-id)
                                    (pcb/with-objects objects))]
                   (prepare-create-group it objects page-id shapes "Group-1" true))
+                          ;; TODO: SELRECT, POINTS
 
                 changes  (-> changes
                              (pcb/update-shapes (:shapes group)
